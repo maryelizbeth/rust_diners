@@ -32,14 +32,9 @@ fn main() {
     Poet::new("Philip Larkin"),
   ];
 
-  let handles: Vec<_> = poets.into_iter().map(|p| {
-    thread::spawn(move || {
-      p.eat();
-    })
-  }).collect();
+ let handles: Vec<_> = poets.into_iter().map(|p| { 
+  t
+ })
 
-  for h in handles {
-    h.join().unwrap();
-  }
 }
 
