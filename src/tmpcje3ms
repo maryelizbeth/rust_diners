@@ -1,6 +1,0 @@
-struct Philosopher {
-  name: String,
-}
-
-impl P
-
